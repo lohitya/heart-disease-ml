@@ -19,7 +19,7 @@ df.shape
 
 df.head(3)
 
-# CHECKING FOR NULL VALUES
+# CHECKING FOR NULL VALUES...
 
 df.isnull().sum()
 
