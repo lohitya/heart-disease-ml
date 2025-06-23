@@ -28,4 +28,3 @@ jobs:
       run: |
         python Heart_disease.py
 
-Add GitHub Actions for model training
