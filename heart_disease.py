@@ -59,13 +59,13 @@ x_df.shape,x_train.shape, x_test.shape
 
 y_train.shape,y_test.shape
 
-# Model
+# Model 1
 
 from sklearn.linear_model import LogisticRegression
 m = LogisticRegression()
 m.fit(x_train,y_train)
 
-# Model evaluation
+# Model1 evaluation
 
 from sklearn.metrics import accuracy_score, classification_report
 
