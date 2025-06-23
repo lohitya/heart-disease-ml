@@ -7,13 +7,11 @@ Original file is located at
     https://colab.research.google.com/drive/1C3kjcRApze95EQOTgr8Z8jD3Lpq8DfKD
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
 
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('/content/drive/MyDrive/datasets/heart_disease_dataset_UCI.csv')
+df = pd.read_csv('data/heart_disease_dataset_UCI.csv')
 
 df.shape
 
